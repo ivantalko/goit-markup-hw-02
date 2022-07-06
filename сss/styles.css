@@ -8,45 +8,52 @@ body{
 font-family:'Roboto',sans-serif;
 background: var(--ptimari-bg-color)
 }
-
-
 ul{
 list-style: none;
 }
-a{
-text-decoration:none ;
-}
+
 /* logo */
 .logo {
+
 font-family:'Raleway';
 font-size: 26px;
 line-height:1.19;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
+text-decoration: none;
 }
 .logo > span{
     color:#2196F3;
 }
 /* site nav */
-.site-nav .link {
-color:#212121;
+.site-nav .link{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
-letter-spacing: 0.02em;
+letter-spacing: 0.02em;   
+text-decoration: none;
+color:#212121;
 
  }
  .site-nav .link:hover ,.site-nav .list:focus{
-            color:#2196F3;
+color:#2196F3;
+
 }
 .link-current{
-    color: var(--acsent-color);
+text-decoration: none;
+color: var(--acsent-color);
 }
-/* adress-nav */
-.adress-nav .adress-link{
-        color: #757575;
+/* adress-head */
+.adress-header .adress-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-decoration: none;
+    color: #757575;
     }
-.adress-nav .adress-link:hover,.adress-nav .adress-link:focus{
+.adress-header .adress-link:hover,.adress-header .adress-link:focus{
     color: #2196F3;
 }
 /* hero */
@@ -62,11 +69,6 @@ text-transform: uppercase;
 color: #FFFFFF;}
 
 .hero button{
-background-color: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-}
-button{
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 16px;
@@ -75,9 +77,14 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+background-color: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 color: #FFFFFF;
 }
-.skils h3{
+/* Особенности */
+.peculiarities{ }
+.peculiarities-list{
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -85,13 +92,15 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 }
-.skils p{font-weight: 400;
+.peculiarities-text{
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.doing h2{
+/* виды работ */
+.work-list{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -100,7 +109,10 @@ color: #757575;
     letter-spacing: 0.03em;
     color: #212121;
 }
-.team h2{
+/* команда */
+.team{
+}
+.team-list{
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -109,7 +121,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.team h3{
+.team-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -117,7 +129,7 @@ color: #212121;
     letter-spacing: 0.03em;
     color: #212121;
 }
-.team p {
+.proffession {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
@@ -125,5 +137,81 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.footer  {
+/* подвал */
+.footer{
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
 }
+.logo-footer{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration: none;
+
+}    
+.logo-footer span {
+color:#FFFFFF
+
+}
+.maps{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.adress .mail{
+   font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.adress .tel{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);}
+/* портфолио */
+.section-ng {
+    cursor: pointer;
+}
+.button{
+font-family: "Roboto"; 
+font-size: 16px; 
+line-height: 1.39px;
+}
+.button .list:hover{
+    background-color: #2196F3;
+cursor: pointer
+}
+.button .list:hover{
+ color: #FFFFFF;   
+}
+.gallery .title{
+font-family:'Roboto'; 
+font-style:700; 
+font-size: 18px; 
+line-height: 2;
+color: #212121;
+}
+.gallery .text{
+font-family:'Roboto';
+font: style 400;
+font-size: 16px ;
+line-height: 1.9; 
+color: #757575;
+
+}
+
+
